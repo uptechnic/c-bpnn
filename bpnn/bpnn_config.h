@@ -9,7 +9,7 @@
 #define OUT_N                           1           /* OUTPUT_NODE */
 #define HIDDEN_N                        71          /* HIDDEN_NODE */
 #define LOOP_N                          5000        /* LOOP NUMBER */
-#define E_MIN                           0.00001      /* Cumulative error */
+#define E_MIN                           0.000001    /* Cumulative error */
 #define LEARN_RATE1                     0.3
 #define LEARN_RATE2                     0.4
 

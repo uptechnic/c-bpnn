@@ -36,8 +36,6 @@ static bool train_once(test_set_get_t f_get);
 
 static bool save_parameter(void);
 
-static bool read_parameter(void);
-
 void bpnn_init(void) {
     srand((unsigned) time(NULL));
     for (size_t i = 0; i < D; i++)
