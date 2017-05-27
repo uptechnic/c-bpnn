@@ -89,4 +89,5 @@ static bool test_set_get(double *in, double *out) {
 static bool test_set_init(void) {
     fseek(in_file, 0, SEEK_SET);
     fseek(out_file, 0, SEEK_SET);
+    return true;
 }
